@@ -1,0 +1,30 @@
+.lazyloading-countainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lazyloading-countainer__photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.lazyloading-countainer__photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.lazyloading-countainer__photo-skeleton {
+  width: 260px;
+  height: 150px;
+  border-radius: 1rem;
+  background-color: #999;
+}
+
+
+img {
+  height: 150px;
+  border-radius: 1rem;
+}

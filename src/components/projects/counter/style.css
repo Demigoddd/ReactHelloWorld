@@ -10,10 +10,3 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
-.counter-countainer__buttons > button {
-  border: 1px solid gray;
-  border-radius: 5px;
-  background-color: dark;
-  width: 50px;
-}

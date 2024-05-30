@@ -16,6 +16,11 @@
   align-items: center;
 }
 
+.quiz-container__result > img {
+  height: 150px;
+  border-radius: 1rem;
+}
+
 .quiz-container__game {
   width: 100%;
   max-width: 500px;

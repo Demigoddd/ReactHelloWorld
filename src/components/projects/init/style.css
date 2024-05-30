@@ -1,3 +1,15 @@
+.init-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .init-container__text {
   font-size: 80px;
+}
+
+.init-container__image {
+  height: 150px;
+  border-radius: 1rem;
 }

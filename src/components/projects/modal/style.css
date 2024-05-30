@@ -41,6 +41,11 @@
   padding-bottom: 1rem;
 }
 
+.modal-container__body > img {
+  height: 150px;
+  border-radius: 1rem;
+}
+
 .modal-container__footer {
   display: flex;
   justify-content: center;

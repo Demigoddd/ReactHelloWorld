@@ -1,0 +1,95 @@
+.gallery-countainer {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.gallery-countainer > h1 {
+  margin-bottom: 1rem;
+}
+
+.gallery-countainer__header > button {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px solid transparent;
+  transition: all 0.15s ease-in-out;
+}
+
+.gallery-countainer__header > input {
+  font-size: 16px;
+  width: 250px;
+  height: 50px;
+  padding: 0 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  transition: all 0.15s ease-in-out;
+}
+
+.gallery-countainer__header > input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.gallery-countainer__header > button:hover {
+  border-color: #000;
+}
+
+.gallery-countainer__header > button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.gallery-countainer__section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.collection {
+  width: 350px;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 30px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+.collection > h4 {
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.collection:hover {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.collection > img {
+  object-fit: cover;
+}
+
+.collection__big {
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.collection__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection__mini {
+  width: 31%;
+  height: 80px;
+  border-radius: 20px;
+}

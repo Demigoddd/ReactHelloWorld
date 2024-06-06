@@ -87,7 +87,6 @@ export const UserList: React.FC = () => {
 
   const searchHandler = (event: any) => {
     setSearchValue(event.target.value);
-    console.log(event.target.value)
   };
 
   return (

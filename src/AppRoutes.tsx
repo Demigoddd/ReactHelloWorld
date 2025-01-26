@@ -10,6 +10,7 @@ import { Quiz } from './components/projects/quiz/Quiz';
 import { UserList } from './components/projects/userList/UserList';
 import { ValueConverter } from './components/projects/valueConverter/ValueConverter';
 import { Gallery } from './components/projects/gallery/Gallery';
+import { SliderGame } from './components/projects/sliderGame/SliderGame';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const AppRoutes: React.FC = () => {
           <Route path="user-list" element={<UserList />} />
           <Route path="value-converter" element={<ValueConverter />} />
           <Route path="gallery" element={<Gallery />} />
+          <Route path="slider-game" element={<SliderGame />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

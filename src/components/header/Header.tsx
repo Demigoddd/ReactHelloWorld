@@ -69,6 +69,14 @@ const Header: React.FC = () => {
       >
         Gallery
       </NavLink>
+      <NavLink
+        to="/slider-game"
+        className={({ isActive }) =>
+          isActive ? "active" : ""
+        }
+      >
+        Slider Game
+      </NavLink>
     </header>
   );
 };
